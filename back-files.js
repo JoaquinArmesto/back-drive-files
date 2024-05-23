@@ -6,7 +6,7 @@
 *       07-25-2022
 */
 
-// ID constants for DAT and Backups folders
+// ID constants for files and Backups folders
 const data_folder = ''
 const back_folder = ''
 
@@ -26,7 +26,7 @@ function backFiles() {
   file_folder = data_folder
     .getFiles();
 
-  // Creates the back up file for each DAT
+  // Creates the back up file for each file
   while (file_folder.hasNext()) {
     file_objt = file_folder
       .next();
@@ -42,6 +42,6 @@ function backFiles() {
       .getName() + " [auto-backup-" + date + "]";
 
     file
-      .makeCopy(name, bak_folder);
+      .makeCopy(name, back_folder);
     }
   }
