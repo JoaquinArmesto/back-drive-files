@@ -11,7 +11,7 @@
 const data_folder = ''
 const back_folder = ''
 
-function back_files() {
+function backFiles() {
   // Reading back up folder and creating the file list object
   let data_folder = DriveApp
     .getFolderById(data_folder);
@@ -24,7 +24,7 @@ function back_files() {
     .toLocaleDateString()  + ':' + new Date().toLocaleTimeString();
 
   // Creating file list object
-  file_folder = dat_folder
+  file_folder = data_folder
     .getFiles();
 
   // Creates the back up file for each DAT
