@@ -6,7 +6,6 @@
 *       07-25-2022
 */
 
-
 // ID constants for DAT and Backups folders
 const data_folder = ''
 const back_folder = ''
