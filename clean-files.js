@@ -6,6 +6,7 @@
 *       07-25-2022
 */
 
+// ID constant for backups folder
 const back_folder = ''
 
 function cleanFiles() {
