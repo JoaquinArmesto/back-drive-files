@@ -1,6 +1,6 @@
 /*
 *   Details:
-*       Reads the DAT folder and creates a backup file for each file in the folder.
+*       Reads a given drive folder and creates a backup file for each file.
 *
 *   Date:
 *       07-25-2022
